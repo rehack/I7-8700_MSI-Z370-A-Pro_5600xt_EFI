@@ -202,6 +202,42 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
+                    <string>USBToolBox.kext</string>
+                    <key>Comment</key>
+                    <string>V1.1.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/USBToolBox</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>UTBMap.kext</string>
+                    <key>Comment</key>
+                    <string>V1.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string></string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
                     <string>RealtekRTL8111.kext</string>
                     <key>Comment</key>
                     <string>V2.4.2</string>
@@ -245,42 +281,6 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/SMCSuperIO</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>USBToolBox.kext</string>
-                    <key>Comment</key>
-                    <string>V1.1.1</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/USBToolBox</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>UTBMap.kext</string>
-                    <key>Comment</key>
-                    <string>V1.1</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string></string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -688,9 +688,9 @@
                 <key>ProvideCurrentCpuInfo</key>
                 <false/>
                 <key>SetApfsTrimTimeout</key>
-                <integer>-1</integer>
+                <integer>0</integer>
                 <key>ThirdPartyDrives</key>
-                <false/>
+                <true/>
                 <key>XhciPortLimit</key>
                 <true/>
             </dict>
@@ -744,11 +744,11 @@
             <key>Debug</key>
             <dict>
                 <key>AppleDebug</key>
-                <false/>
+                <true/>
                 <key>ApplePanic</key>
-                <false/>
+                <true/>
                 <key>DisableWatchDog</key>
-                <false/>
+                <true/>
                 <key>DisplayDelay</key>
                 <integer>0</integer>
                 <key>DisplayLevel</key>
@@ -806,7 +806,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Disabled</string>
+                <string>Default</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -845,7 +845,30 @@
                 <false/>
             </dict>
             <key>Tools</key>
-            <array/>
+            <array>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Auxiliary</key>
+                    <true/>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Flavour</key>
+                    <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <true/>
+                    <key>Name</key>
+                    <string>OpenShell</string>
+                    <key>Path</key>
+                    <string>OpenShell.efi</string>
+                    <key>RealPath</key>
+                    <true/>
+                    <key>TextMode</key>
+                    <true/>
+                </dict>
+            </array>
         </dict>
         <key>NVRAM</key>
         <dict>
@@ -870,7 +893,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v alcid=4 agdpmod=pikera</string>
+                    <string>alcid=2 agdpmod=pikera</string>
                     <key>csr-active-config</key>
                     <data>/w8AAA==</data>
                     <key>prev-lang:kbd</key>
@@ -939,7 +962,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02913104GUKGQGCB</string>
+                <string>C02929108GUKGQG1M</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -953,9 +976,9 @@
                 <key>SystemProductName</key>
                 <string>iMac19,2</string>
                 <key>SystemSerialNumber</key>
-                <string>C02YHVY0JWDW</string>
+                <string>C02Z30KSJWDW</string>
                 <key>SystemUUID</key>
-                <string>0FF095A4-25D5-4024-9029-782F22775BB7</string>
+                <string>85208918-EFFF-4461-9E44-D1027F570961</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1053,18 +1076,6 @@
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
-                    <string>OpenHfsPlus.efi</string>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>LoadEarly</key>
-                    <false/>
-                    <key>Path</key>
                     <string>OpenRuntime.efi</string>
                 </dict>
                 <dict>
@@ -1077,7 +1088,31 @@
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
+                    <string>OpenHfsPlus.efi</string>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>LoadEarly</key>
+                    <false/>
+                    <key>Path</key>
                     <string>OpenCanopy.efi</string>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>LoadEarly</key>
+                    <false/>
+                    <key>Path</key>
+                    <string>CrScreenshotDxe.efi</string>
                 </dict>
                 <dict>
                     <key>Arguments</key>
