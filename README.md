@@ -4,6 +4,7 @@
 * 主板：MSI Z370-A Pro
 * 无线网卡蓝牙：BCM94360CD PCI-E
 * MacOS版本：Ventura 13.2.1
+* 引导加载程序：OpenCore 0.8.9
 
 ### 截图
 ![关于本机](screenshot/mac_info.png)
