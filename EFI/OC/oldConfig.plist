@@ -224,7 +224,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.8.8 | AppleALC.kext</string>
+                    <string>V1.8.9 | AppleALC.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -240,27 +240,9 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>AirportItlwm.kext</string>
-                    <key>Comment</key>
-                    <string>V2.2.0 | AirportItlwm.kext</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AirportItlwm</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>IntelBluetoothFirmware.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.0 | IntelBluetoothFirmware.kext</string>
+                    <string>V2.4.0 | IntelBluetoothFirmware.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -283,6 +265,24 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/RealtekRTL8111</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AirportItlwm.kext</string>
+                    <key>Comment</key>
+                    <string>V2.3.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -350,7 +350,7 @@
                     <key>BundlePath</key>
                     <string>IntelBTPatcher.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.0 | IntelBTPatcher.kext</string>
+                    <string>V2.4.0 | IntelBTPatcher.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -809,7 +809,7 @@
                 <key>PickerMode</key>
                 <string>External</string>
                 <key>PickerVariant</key>
-                <string>Auto</string>
+                <string>chris1111\Ventura13</string>
                 <key>PollAppleHotKeys</key>
                 <true/>
                 <key>ShowPicker</key>
@@ -964,18 +964,16 @@
                 </dict>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
-                    <key>#INFO (prev-lang:kbd)</key>
-                    <string>en:252 (ABC), set 656e3a323532</string>
                     <key>ForceDisplayRotationInEFI</key>
                     <integer>0</integer>
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>alcid=2 agdpmod=pikera</string>
+                    <string>alcid=15 agdpmod=pikera</string>
                     <key>csr-active-config</key>
                     <data>/w8AAA==</data>
                     <key>prev-lang:kbd</key>
-                    <data>cnUtUlU6MjUy</data>
+                    <string>zh-Hans:252</string>
                     <key>run-efi-updater</key>
                     <string>No</string>
                 </dict>
@@ -1040,7 +1038,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02909100CDJ0DXJA</string>
+                <string>C02047303GUKGQG1M</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1052,11 +1050,11 @@
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>iMac18,2</string>
+                <string>iMac19,2</string>
                 <key>SystemSerialNumber</key>
-                <string>C02YCHYTJ1G5</string>
+                <string>C02DQAZ1JWDW</string>
                 <key>SystemUUID</key>
-                <string>1917B202-2BA9-49EF-98AA-B8521519BD12</string>
+                <string>43773736-4289-4C06-8D75-0BE29C9F0587</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
